@@ -1,0 +1,50 @@
+/*background for all website */
+/*color for text */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 100%;
+  }
+}
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #999999;
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+  border-style: none;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.navbar-toggler {
+  border-style: none;
+}
+
+.navbar {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.nav-item {
+  color: #ffffff;
+}
+.nav-item:hover {
+  color: #4ad7e8;
+}
+
+/* .dropdown:hover>.dropdown-menu
+ * display: none */

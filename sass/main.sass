@@ -1,7 +1,40 @@
 @import "colors"
 
-body
+@media (min-width: 1200px)
+    .container
+        max-width: 100%
+
+html
     font-size: 16px
-    background-color: @body-bg
-    color: @dark
+body
+    background-color: $body-bg
+    color: $dark
     font-family: "Roboto", sans-serif
+
+.dropdown:hover>.dropdown-menu
+    display: block
+    
+.dropdown-menu
+    background-color: transparent   
+    border-style: none
+
+.bg-light 
+    background-color: transparent!important
+
+.navbar-toggler
+    border-style: none
+    
+
+.navbar
+        text-align: center
+        font-family: "Roboto", sans-serif
+        text-transform: uppercase
+        color: $white
+
+.nav-item
+    color: $white
+    &:hover
+        color: $active-color-two
+/*
+    .dropdown:hover>.dropdown-menu
+    display: none
