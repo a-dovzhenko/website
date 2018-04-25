@@ -22,6 +22,7 @@ body {
   height:100%;
   background-image:url('../img/photos/hero-header-photo.jpg');
   background-size:cover;
+  overflow: visible;
 }
 .dropdown:hover > .dropdown-menu {
   display: block;
@@ -56,3 +57,107 @@ body {
 
 /* .dropdown:hover>.dropdown-menu
  * display: none */
+
+.left-decor-block {
+  margin-bottom: 7em;
+}
+.header-vertical-text {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  right: auto;
+  bottom: 0%;
+  left: 1em;
+  background-image:url('../img/white-vertical-text.png');
+  background-size: contain;
+  background-position: left, top;
+  background-repeat: no-repeat;
+  z-index: 5;
+} 
+
+.deco-frame {
+  position: absolute;
+  width: 100%;
+  background-size: contain;
+  background-position: left, top;
+  background-repeat: no-repeat;
+  z-index: 2;
+  top: 0%;
+  left: 0%;
+  bottom: 0%;
+  right: auto;
+}
+
+.deco-frame-top-blue {
+  background-image:url('../img/blue-line.png');
+}
+
+.header-text {
+  margin-top: 5%;
+  padding-bottom: 30%
+}
+
+.header-text h3 {
+  padding-left: 1.5em;
+}
+
+.what-we-do {
+  padding: 45px 45px;
+  margin-top: -100px;
+  z-index: 5;
+  position: relative;
+  background-color: #4ad7e8;
+}
+
+.what-we-do h2, h3, h4, p {
+  color: #ffffff;
+  margin-bottom: 1em;
+}
+
+.wwd-right-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: auto;
+  background-color: #ffffff;
+  width: 100px;
+  height: 100px;
+  background-image: url("../img/icons/black-arrow-right.png");
+  background-size: 16px 27px;
+  background-position: center, center;
+  background-repeat: no-repeat;
+}
+
+.wwd-box {
+  padding: 0 10px 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.wwd-icon {
+  margin: 20px;
+  display: inline-block;
+  width: 120px;
+  height: auto;
+}
+
+.wwd-box-item {
+  padding: 0px 35px 0px 40px;
+  position: relative;
+}
+
+.wwd-box-item-text {
+  text-align: left;
+  color: #ffffff;
+}
+
+.testimonials-box {
+  padding: 45px 45px;
+  z-index: 5;
+}
+
+.footer_area {
+  background-image: url("../img/photos/footer-photo.jpg");
+  background-size: cover;
+}
